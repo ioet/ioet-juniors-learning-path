@@ -23,7 +23,7 @@ _This type of testing may require a very mixed set of skills and is typically pe
 
 <br>
 
-**Hint**: A good way of memorizing the difference between functional and nonfunctional tests is remembering that functional tests target the what, whereas nonfunctional tests target the how. For example, a functional unit test of a sorting algorithm would verify that the input is indeed sorted. A nonfunctional unit test would time it to make sure that it runs within a specified time constraint.
+**Hint**: A good way of memorizing the difference between functional and nonfunctional tests is remembering that functional tests target the _what_, whereas nonfunctional tests target the _how_. For example, a functional unit test of a sorting algorithm would verify that the input is indeed sorted. A nonfunctional unit test would time it to make sure that it runs within a specified time constraint.
 
 <br>
 
