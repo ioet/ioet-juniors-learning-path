@@ -7,7 +7,7 @@ On most Linux systems a program called bash (which stands for Bourne Again SHell
 
 Check the difference about Terminal and Shell in the next video:
 
-[![Shell vs Terminal](https://i.ibb.co/2ZVH7g8/image.png)](https://www.youtube.com/watch?v=Yt57-gg9jVg "Everything Is AWESOME")
+[![Shell vs Terminal](https://i.ibb.co/2ZVH7g8/image.png)](https://www.youtube.com/watch?v=Yt57-gg9jVg "Shell vs Terminal")
 
 Check the following free course about Shell: [Udacity link](https://www.udacity.com/course/ud595)
 
