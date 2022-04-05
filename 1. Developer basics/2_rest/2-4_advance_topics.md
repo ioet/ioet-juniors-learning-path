@@ -4,17 +4,28 @@ In this document you will find some interesting guidelines to be more effective 
 
 ## Authors
 
-- Jipson Murillo @yourAliasHere
+- Jipson Murillo @Jobzi
 - Wladymir Brborich @Wason1797
 
 ### Topics
 
-- [API Error format](#api-error-format)
-- [When should we return 4xx or 5xx status codes to the client?](#when-should-we-return-4xx-or-5xx-status-codes-to-the-client)
-- [Self-generated documentation](#self-generated-documentation)
-- [When should we use PUT and when should we use POST?](#when-should-we-use-put-and-when-should-we-use-post)
-- [When should we use the PATCH HTTP method?](#when-should-we-use-the-patch-http-method)
-- [What are idempotent and/or safe methods?](#what-are-idempotent-andor-safe-methods)
+- [Recipes to build a REST API](#recipes-to-build-a-rest-api)
+  - [Authors](#authors)
+    - [Topics](#topics)
+  - [API Error format](#api-error-format)
+    - [Internal Server Errors](#internal-server-errors)
+    - [When should we return 4xx or 5xx status codes to the client?](#when-should-we-return-4xx-or-5xx-status-codes-to-the-client)
+  - [Self-generated documentation](#self-generated-documentation)
+    - [Why ?](#why-)
+  - [When should we use PUT and when should we use POST?](#when-should-we-use-put-and-when-should-we-use-post)
+    - [Caveats](#caveats)
+  - [When should we use the PATCH HTTP method?](#when-should-we-use-the-patch-http-method)
+    - [Caveats](#caveats-1)
+  - [What are idempotent and/or safe methods?](#what-are-idempotent-andor-safe-methods)
+  - [Idempotent methods](#idempotent-methods)
+  - [Pagination](#pagination)
+  - [Async Operation](#async-operation)
+  - [More Topics](#more-topics)
 
 ## API Error format
 
@@ -98,7 +109,7 @@ When building a REST API, we design an API that can be used by external develope
 - Increases adoption rate.
 - Documentation is the key to a good experience when consuming your API.
 - Reduces onboarding time.
-See More: [Self-generated documentation](https://octo-woapi.github.io/cookbook/self-generated-documentation.html)
+  See More: [Self-generated documentation](https://octo-woapi.github.io/cookbook/self-generated-documentation.html)
 
 ## When should we use PUT and when should we use POST?
 
