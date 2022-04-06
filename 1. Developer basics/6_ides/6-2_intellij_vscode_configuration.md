@@ -1,5 +1,26 @@
 # JetBrains IDEs and VSCode Configuration
 
+In this document you will find the most useful tips to configure your JetBrains IDEs and VSCode, also some tips that will make you more productive.
+
+## Authors
+
+- Jean Carlos Alarcón @jcalarcon98
+- Javier Sarango @jase156
+
+## Topics
+
+- [JetBrains IDEs and VSCode Configuration](#jetbrains-ides-and-vscode-configuration)
+  - [Authors](#authors)
+  - [Topics](#topics)
+  - [JetBrains IDEs configuration](#jetbrains-ides-configuration)
+    - [Customize Colors and Fonts](#customize-colors-and-fonts)
+    - [Configure keyboard shortcuts](#configure-keyboard-shortcuts)
+    - [Improve menus and toolbars usage](#improve-menus-and-toolbars-usage)
+    - [Share IDE Settings](#share-ide-settings)
+    - [Install Plugins](#install-plugins)
+    - [Create Live Templates](#create-live-templates)
+    - [Customize Run/Debug configurations](#customize-rundebug-configurations)
+
 ## JetBrains IDEs configuration
 
 It is important to clarify that the configuration work in the same way in any of the IDEs that JetBrains offers.

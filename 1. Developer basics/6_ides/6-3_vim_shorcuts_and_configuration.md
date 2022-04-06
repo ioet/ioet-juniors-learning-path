@@ -1,6 +1,25 @@
 # VIM shortcuts and configuration
 
+In this document you will find the most useful shortcuts for VIM, also some tips that will make you more productive.
+
 [Vim](https://www.vim.org/) is configurable text editor built to make creating any kind of text in efficient way.
+
+## Authors
+
+- Jean Carlos Alarcón @jcalarcon98
+- Javier Sarango @jase156
+
+## Topics
+
+- [VIM shortcuts and configuration](#vim-shortcuts-and-configuration)
+  - [Authors](#authors)
+  - [Topics](#topics)
+  - [Shortcuts](#shortcuts)
+    - [Global](#global)
+    - [Cursor movement](#cursor-movement)
+    - [Inserting/appending text](#insertingappending-text)
+    - [Editing](#editing)
+    - [Exiting](#exiting)
 
 ## Shortcuts
 

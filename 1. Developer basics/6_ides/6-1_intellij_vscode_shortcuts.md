@@ -1,18 +1,34 @@
 # JetBrains IDEs and VSCode Shortcuts
 
-## JetBrains IDEs
+In this document you will find the most useful shortcuts for JetBrains IDEs and VSCode, also some tips that will make you more productive.
 
-Jetbrains offers some IDEs to build our software products. You will have to choose one depending on your needs.
+## Authors
+
+- Jean Carlos Alarcón @jcalarcon98
+- Javier Sarango @jase156
+
+## Topics
+
+- [JetBrains IDEs and VSCode Shortcuts](#jetbrains-ides-and-vscode-shortcuts)
+  - [Authors](#authors)
+  - [Topics](#topics)
+  - [JetBrains IDEs shortcuts](#jetbrains-ides-shortcuts)
+    - [Create and Edit shortcuts](#create-and-edit-shortcuts)
+    - [Version Control shortcuts](#version-control-shortcuts)
+    - [Get the best from your IDE](#get-the-best-from-your-ide)
+    - [Find Everything](#find-everything)
+
+## JetBrains IDEs shortcuts
+
+Jetbrains offers the most useful shortcuts for JetBrains IDEs and VSCode, and also some tips me IDEs to build our software products. You will have to choose one depending on your needs.
 
 Here is a [list of IDEs](https://www.jetbrains.com/products/#type=ide) that Jetbrains offers.
-
-### Shortcuts for JetBrains IDEs
 
 It is important to clarify that the shortcuts work in the same way in any of the IDEs that JetBrains offers.
 
 > If you are using macOS you should use ⌘ instead of Ctrl.
 
-#### Create and Edit shortcuts
+### Create and Edit shortcuts
 
 | Function                        | Shortcut                         |
 | ------------------------------- | -------------------------------- |
@@ -27,7 +43,7 @@ It is important to clarify that the shortcuts work in the same way in any of the
 | Move line up/down               | `Ctrl + Shift + Up / Down`       |
 | Delete line                     | `Ctrl + Y`                       |
 
-#### Version Control shortcuts
+### Version Control shortcuts
 
 | Functions                                          | Shortcut           |
 | -------------------------------------------------- | ------------------ |
@@ -38,7 +54,7 @@ It is important to clarify that the shortcuts work in the same way in any of the
 | Revert                                             | `Ctrl + Alt + Z`   |
 | Push                                               | `Ctrl + Shift + K` |
 
-#### Get the best from your IDE
+### Get the best from your IDE
 
 | Functions                                                                                              | Shortcut                        |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------- |
@@ -47,7 +63,7 @@ It is important to clarify that the shortcuts work in the same way in any of the
 | Go to next/previous editor tab                                                                         | `Alt + Right / Alt + Left`      |
 | Close Active tab/window                                                                                | `Ctrl + Shift + F4 / Ctrl + F4` |
 
-#### Find Everything
+### Find Everything
 
 | Functions                      | Shortcut                      |
 | ------------------------------ | ----------------------------- |
