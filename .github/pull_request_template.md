@@ -12,10 +12,6 @@
 
 This PR ...
 
-## Ticket Link
-
-[XYZ-000](https://getbentobox.atlassian.net/browse/XYZ-000)
-
 ## Checklist
 
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
