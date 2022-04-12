@@ -1,6 +1,6 @@
 # REST PROTOCOLS
 
-## ¿ WHAT IS REST ?
+## WHAT IS REST ?
 
 REST is the acronym for REpresentational State Transfer, which is an architecture style that provides standards for communication between computer systems on the web in a simple way.
 Currently, development platforms provide support to make use of web technologies, either through native or third-party frameworks or libraries, they also provide tools to process the information received in requests, whether these are XML, JSON or other types of data.
