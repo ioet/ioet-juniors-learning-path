@@ -10,7 +10,7 @@ When REST was first raised, no specific protocol was established with which it s
 
 When request a resource to the server, the type of content sent must be specified in the `content-type` field of the request header and it must be one of the options specified in the server's `accept`.
 
-#### Example
+### Example
 
 Request
 

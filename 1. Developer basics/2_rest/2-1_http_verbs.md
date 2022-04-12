@@ -1,4 +1,6 @@
-## Topics
+# HTTP VERBS
+
+The protocol HTTP defines a set of request methods, which are also called verbs.
 
 - [HTTP VERBS](#http-verbs)
   - [HEAD](#head)
@@ -29,10 +31,6 @@
     - [Syntax](#syntax-8)
     - [Common Status Responses](#common-status-responses-8)
   - [References](#references)
-
-# HTTP VERBS
-
-The protocol HTTP defines a set of request methods, which are also called verbs.
 
 ## HEAD
 
