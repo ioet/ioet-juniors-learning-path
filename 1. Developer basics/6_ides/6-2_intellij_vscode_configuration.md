@@ -20,6 +20,15 @@ In this document you will find the most useful tips to configure your JetBrains 
     - [Install Plugins](#install-plugins)
     - [Create Live Templates](#create-live-templates)
     - [Customize Run/Debug configurations](#customize-rundebug-configurations)
+  - [Visual Studio Code configuration](#visual-studio-code-configuration)
+    - [Configuring the editor](#configuring-the-editor)
+    - [Side by side editing](#side-by-side-editing)
+    - [Editor Groups](#editor-groups)
+    - [Grid editor layout](#grid-editor-layout)
+    - [Color Themes](#color-themes)
+    - [Extension](#extension)
+    - [Debugging/Run](#debuggingrun)
+    - [Linter](#Linter)
 
 ## JetBrains IDEs configuration
 
@@ -77,3 +86,60 @@ Each project has its own complexity, et's suppose we have to perform the followi
 4. Run Project (`python manage.py runserver`)
 
 As you can see, execute these all steps everytime I need to run the application is a lot of work, but we can convert these 4 steps in only one click (or shortcut).
+
+## Visual Studio Code configuration
+
+You can configure Visual Studio Code to your liking through its various settings. Nearly every part of VS Code's editor, user interface, and functional behavior has options you can modify.
+
+### [Configuring the editor](#https://code.visualstudio.com/docs/getstarted/userinterface#_configuring-the-editor)
+
+VS Code gives you many options to configure the editor. From the **View** menu, you can hide or toggle various parts of the user interface, such as the **Side Bar**, **Status Bar**, and **Activity Bar**.
+
+Most editor configurations are kept in settings which can be modified directly. You can set options globally through user settings or per project/folder through workspace settings. Settings values are kept in a `settings.json` [file](#https://code.visualstudio.com/docs/getstarted/settings#_settingsjson).
+
+> **Note for macOS users**: The **Preferences** menu is under Code not File. For example, Code > Preferences > Settings.
+
+- Select **File** > **Preferences** > **Settings** (or press `Ctrl+,`) to edit the user `settings.json` file.
+- To edit workspace settings, select the **WORKSPACE SETTINGS** tab to edit the workspace `settings.json` file.
+
+### [Side by side editing](#https://code.visualstudio.com/docs/getstarted/userinterface#_side-by-side-editing)
+
+Visual Studio Code allows open as many editors as you like side by side vertically and horizontally. If you already have one editor open, there are multiple ways of opening another editor to the side of the existing one:
+
+- `Alt` click on a file in the Explorer.
+- `Ctrl+\` to split the active editor into two.
+- **Open to the Side** (`Ctrl+Enter`) from the Explorer context menu on a file.
+- Click the **Split Editor** button in the upper right of an editor.
+- Drag and drop a file to any side of the editor region.
+- `Ctrl+Enter` (macOS: `Cmd+Enter`) in the Quick Open (`Ctrl+P`) file list.
+
+### [Editor Groups](#https://code.visualstudio.com/docs/getstarted/userinterface#_editor-groups)
+
+When you split an editor (using the **Split Editor** or **Open to the Side** commands), a new editor region is created which can hold a group of items. You can open as many editor regions as you like side by side vertically and horizontally.
+
+### [Grid editor layout](https://code.visualstudio.com/docs/getstarted/userinterface#_grid-editor-layout)
+
+By default, editor groups are laid out in vertical columns (for example when you split an editor to open it to the side). You can easily arrange editor groups in any layout you like, both vertically and horizontally:
+
+There are a predefined set of editor layouts in the new **View** > **Editor Layout** menu. Editors that open to the side will by default open to the right-hand side of the active editor. If you prefer to open editors below the active one, configure the new setting `workbench.editor.openSideBySideDirection: down`.
+
+### [Color Themes](#https://code.visualstudio.com/docs/getstarted/themes)
+
+Color themes let you modify the colors in Visual Studio Code's user interface to suit your preferences and work environment.
+
+### [Extension](#https://code.visualstudio.com/docs/editor/extension-marketplace)
+
+The features that Visual Studio Code includes out-of-the-box are just the start. VS Code extensions let you add languages, debuggers, and tools to your installation to support your development workflow.
+
+You can browse and install extensions from within VS Code. Bring up the Extensions view by clicking on the Extensions icon in the **Activity Bar** on the side of VS Code or the **View: Extensions** command (`Ctrl+Shift+X`). To install an extension, select the **Install** button. Once the installation is complete, the **Install** button will change to the **Manage** gear button.
+
+### [Debugging/Run](#https://code.visualstudio.com/docs/editor/debugging)
+
+To run or debug a simple app in VS Code, select Run and Debug on the Debug start view or press F5 and VS Code will try to run your currently active file.
+
+However, for most debugging scenarios, creating a launch configuration file is beneficial because it allows you to configure and save debugging setup details. VS Code keeps debugging configuration information in a `launch.json` file located in a `.vscode` folder in your workspace (project root folder) or in your [user settings](#https://code.visualstudio.com/docs/editor/debugging#_global-launch-configuration) or [workspace settings](#https://code.visualstudio.com/docs/editor/multi-root-workspaces#_workspace-launch-configurations).
+
+To create a `launch.json` file, click the create a launch.json file link in the Run start view. VS Code will try to automatically detect your debug environment, but if this fails, you will have to choose it manually.
+
+### Linter
+To configure the linter according to the programming language, we can use the [Extensions](#https://marketplace.visualstudio.com/VSCode), here we will find lint rules for all languages and when we install them VS code will detect the language and activate the linter.
