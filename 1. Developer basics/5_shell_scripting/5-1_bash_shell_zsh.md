@@ -66,7 +66,6 @@ Check the following free course about Shell: [Udacity link](https://www.udacity.
 | Auto completion works faster.                                                                 | Auto completion is slower.                                                    |
 | Smaller community                                                                             | Wider community                                                               |
 
-
 ## How to install and set up Zsh as default
 
 Installation on many platforms and setting up Zsh as default you can
@@ -75,18 +74,33 @@ find [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#install-and-s
 
 ## Contents
 
-- [Zsh Customization](#zsh-customization)
+- [Bash and Zsh](#bash-and-zsh)
+  - [Contributors](#contributors)
+  - [Introduction](#introduction)
+  - [Features comparison](#features-comparison)
+  - [How to install and set up Zsh as default](#how-to-install-and-set-up-zsh-as-default)
+  - [Contents](#contents)
+  - [Zsh Customization](#zsh-customization)
     - [OhMyZsh](#ohmyzsh)
-        - [Themes](#themes)
-        - [Plugins](#plugins)
-        - [Favourite Zsh features](#favourite-zsh-features)
-    - [Powerlevel10k](#powerlevel10k)
-        - [Powerlevel10k Themes](#powerlevel10k-themes)
+      - [Installation](#installation)
+      - [Themes](#themes)
+      - [Plugins](#plugins)
+        - [zsh-autosuggestions](#zsh-autosuggestions)
+        - [Top Plugins Here](#top-plugins-here)
+      - [Favorite Zsh features](#favorite-zsh-features)
+        - [Help with Git](#help-with-git)
+        - [Tab completion on ‘cd’](#tab-completion-on-cd)
+        - [See More Features Here](#see-more-features-here)
         - [Personal Experience](#personal-experience)
+    - [Powerlevel10k](#powerlevel10k)
+      - [Powerlevel10k Themes](#powerlevel10k-themes)
+      - [Personal Experience](#personal-experience-1)
     - [Oh My Posh](#oh-my-posh)
-        - [Installation](#installation)
-        - [Themes](#themes)
-        - [Swap to another theme](#swap-to-another-theme)
+      - [Installation](#installation-1)
+      - [Themes](#themes-1)
+      - [Swap to another theme](#swap-to-another-theme)
+      - [Personal Experience](#personal-experience-2)
+    - [Internet search volume](#internet-search-volume)
 
 ## Zsh Customization
 
@@ -111,16 +125,14 @@ few things that make you shout...
 
 ["Oh My ZSH!"](https://ohmyz.sh)
 
-#### **Installation**
+#### Installation
 
--
-
-Windows: [Windows Installation](https://medium.com/fixtergeek/instalar-oh-my-zsh-en-windows-93e554938fd2)
+- Windows: [Windows Installation](https://medium.com/fixtergeek/instalar-oh-my-zsh-en-windows-93e554938fd2)
 
 - MacOS: [masOS Installation](https://ohmyz.sh/#install)
 - Linux: [Linux Installation](https://es.linux-console.net/?p=24)
 
-#### **Themes**
+#### Themes
 
 First we start from the themes, ZSH provides a variety of themes that can be viewed in the official
 repository of [Themes - OhMyZsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes).
@@ -129,7 +141,7 @@ To open the configuration file you can use `vim` or `nano` in my case, I used na
 configuration file `.zshrc`.
 
 ```terminal
-$ nano ~/.zshrc
+nano ~/.zshrc
 ```
 
 In order to enable a theme, set ZSH_THEME to the name of the theme in your ~/.zshrc, before sourcing
@@ -137,7 +149,7 @@ Oh My Zsh; for example: ZSH_THEME=robbyrussell If you do not want any theme enab
 ZSH_THEME to blank: ZSH_THEME=""
 or you can select from the list of themes provided by the GitHub repository.
 
-#### **Plugins**
+#### Plugins
 
 To install plugins, the OhMyZsh repository has a list of plugins that can be added to the terminal.
 You can check the list here [Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins).
@@ -151,7 +163,7 @@ plugins=(rails git ruby)
 
 > **NOTE**: Elements in zsh arrays are separated by whitespace (spaces, tabs, newlines...). DO NOT use commas.
 
-##### **zsh-autosuggestions**
+##### zsh-autosuggestions
 
 1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
@@ -170,11 +182,11 @@ plugins=(rails git ruby)
 
 3. Start a new terminal session.
 
-##### Top Plugins Here:
+##### Top Plugins Here
 
 - [Plugins - OhMyZsh](https://safjan.com/top-popular-zsh-plugins-on-github/)
 
-#### **Favorite Zsh features**
+#### Favorite Zsh features
 
 ##### Help with Git
 
@@ -190,7 +202,7 @@ plugins=(rails git ruby)
 
 - [Features](https://code.joejag.com/2014/why-zsh.html)
 
-##### **Personal Experience**:
+##### Personal Experience
 
 > As a developer I have spent most of my time using GitBash on Windows. However being on the WP team I opted to switch operating systems to Ubuntu, I installed OhMyZsh on recommendations and suggestions. I have been using the zsh terminal and thanks to plugins like zsh-autosuggestions, when typing the command in the terminal it shows me suggestions and thus saves me time in searching for the command and pasting it. The features I use the most are the Git Aliases to avoid typing all the git commands just put aliases to facilitate the work of versioning code.
 
@@ -216,7 +228,7 @@ In order to install this theme on your zsh terminal, follow the next 4 steps:
 3. Restart Zsh with `exec zsh` or by closing the current terminal and opening a new one.
 4. Type `p10k configure` if the configuration wizard doesn't start automatically.
 
-#### **Powerlevel10k Themes**
+#### Powerlevel10k Themes
 
 Run the following command: `p10k configure` to be able to configure the desired theme. And a
 configuration wizard will appear where we will give the styles and the configurations that we want (
@@ -226,7 +238,7 @@ see the image).
 
 In addition, this command will allow you to configure Powerlevel10k as many times as you want.
 
-#### **Personal Experience**:
+#### Personal Experience
 
 > Within our profession as developers is important the speed and simplicity of daily tasks and one of those is the use of the terminal, the terminal I use all day and for practically everything, so I require a terminal that I can customize to accommodate and obviously simplify my work as much as possible.
 
@@ -238,7 +250,7 @@ The [documentation](https://ohmyposh.dev) details what Oh My Posh offers and if 
 use an existing theme you can create a custom theme.
 ![](https://lh4.googleusercontent.com/J5IwMUNOb9IHLdhG5hXj_nPOdfZCOCSyoq97al00jA930tGsdVP_emm6IxiXdekoNWKA66DpJoFlaIx-fSged9bYhzpBqWx9_z4T_91qOZv1errAqtVvhbE80ykRahFwArjN26jb)
 
-#### **Installation**
+#### Installation
 
 It is recommended to follow the OH MY POSH documentation step by step.
 
@@ -246,7 +258,7 @@ It is recommended to follow the OH MY POSH documentation step by step.
 - MacOS: [masOS Installation](https://ohmyposh.dev/docs/macos)
 - Linux: [Linux Installation](https://ohmyposh.dev/docs/linux)
 
-#### **Themes**
+#### Themes
 
 Oh my posh offers many themes out of the box. In this link you can see the screenshot of
 the [most common themes](https://ohmyposh.dev/docs/themes) and in case you want to see the entire
@@ -263,7 +275,7 @@ These are some of my personal favorite themes because of their simplicity.
   Download json [here](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/amro.omp.json)
   ![](https://ohmyposh.dev/assets/images/amro-51689153dac379552c76210ceaeef764.png)
 
-#### **Swap to another theme**
+#### Swap to another theme
 
 If you want to change your theme, just download the json file, make sure you have it in your `$HOME`
 folder and follow the steps to replace your existing prompt according to your operating system.
@@ -272,14 +284,13 @@ folder and follow the steps to replace your existing prompt according to your op
 - MacOS: [Replace your existing prompt in masOS](https://ohmyposh.dev/docs/macos#replace-your-existing-prompt)
 - Linux: [Replace your existing prompt in Linux](https://ohmyposh.dev/docs/linux#replace-your-existing-prompt)
 
-#### **Personal Experience**:
+#### Personal Experience
 
 > What I liked the most about the oh my posh themes is the option to see the time and the current branch you are on, of course this depends on the theme that is chosen or the custom theme that is configured. However when using the mac terminal the theme doesn't look right and when resizing the window the time on the right side doesn't fit well. One option that Oh my posh recommends is to use the [iTerm2](https://iterm2.com) terminal emulator
-
 
 ### Internet search volume
 
 Here's a Google Trends [chart](https://trends.google.com/trends/explore?q=ZSH,%2Fm%2F01g7l), which
 show the search volume comparison for both shells:
 
-<a href="https://ibb.co/jr3F0Ps"><img src="https://i.ibb.co/XCFT0rM/bash-zsh.png" alt="bash-zsh" border="0"></a>
+![bash-zsh](https://i.ibb.co/XCFT0rM/bash-zsh.png)
