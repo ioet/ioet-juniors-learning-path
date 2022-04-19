@@ -353,8 +353,6 @@ queue = Queue.new
 
 </table>
 
-
-
 #### Hashing data structure
 
 Hashing is a technique or process of mapping keys, values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.
@@ -410,7 +408,7 @@ IDictionary<int, string> numberNames = new Dictionary<int, string>();
 ```
 
 </td>
-<td> 
+<td>
 
 [URL](https://www.tutorialsteacher.com/csharp/csharp-dictionary).
 
@@ -426,7 +424,7 @@ Hashtable<String, String> my_dict = new Hashtable<String, String>();
 ```
 
 </td>
-<td> 
+<td>
 
 [URL](https://www.educative.io/edpresso/how-to-create-a-dictionary-in-java).
 
@@ -442,7 +440,7 @@ pub struct HashMap<K, V, S = RandomState> { /* private fields */ }
 ```
 
 </td>
-<td> 
+<td>
 
 [URL](https://doc.rust-lang.org/std/collections/struct.HashMap.html).
 
@@ -464,7 +462,7 @@ MLB_team = {
 ```
 
 </td>
-<td> 
+<td>
 
 [URL](https://realpython.com/python-dicts/).
 
@@ -473,7 +471,7 @@ MLB_team = {
 <tr><td> Js </td>
 <td>
 
-```
+``` javascript
 const person = {
 firstName: "John",
 lastName: "Doe",
@@ -481,6 +479,7 @@ age: 50,
 status: "marketing contact"
 };
 ```
+
 </td>
 <td>
 
