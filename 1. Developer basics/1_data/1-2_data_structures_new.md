@@ -479,7 +479,6 @@ age: 50,
 status: "marketing contact"
 };
 ```
-
 </td>
 <td>
 
