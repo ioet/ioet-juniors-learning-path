@@ -4,17 +4,9 @@
 
 - [Josué Cando](https://github.com/JosueOb)
 
-## Introduction
+## Content
 
-SQL is easy to learn, as the statements are composed of descriptive words in English and are not case-sensitive. Also,
-you can create and interact with a database using SQL efficiently and easily. you don't have to specify how to get the
-data from the database. Rather, you simply specify what to retrieve, and SQL does the rest.
-
-SQL provides statements for defining the structure of the data, manipulating data in the database, declare constraints
-and retrieve data from the database in various ways, depending on our requirements.
-
-## Contents
-
+- [Introduction](#introduction)
 - [SQL Commands](#sql-commands)
     - [Data Definition Language](#data-definition-language)
     - [Data Manipulation Language](#data-manipulation-language)
@@ -29,6 +21,16 @@ and retrieve data from the database in various ways, depending on our requiremen
 - [Join Operations](#join-operations)
     - [Types of SQL join](#types-of-sql-join)
     - [Advantages and disadvantages](#advantages-and-disadvantages)
+- [References](#references)
+
+## Introduction
+
+SQL is easy to learn, as the statements are composed of descriptive words in English and are not case-sensitive. Also,
+you can create and interact with a database using SQL efficiently and easily. you don't have to specify how to get the
+data from the database. Rather, you simply specify what to retrieve, and SQL does the rest.
+
+SQL provides statements for defining the structure of the data, manipulating data in the database, declare constraints
+and retrieve data from the database in various ways, depending on our requirements.
 
 ## SQL Commands
 
@@ -245,3 +247,7 @@ way two tables are related in a query by:
 * A disadvantage of using joins is that they are not as easy to read as subqueries.
 * Another disadvantage is that it can be confusing as to which join is the appropriate type of join to use to yield the
   correct desired result set.
+
+## References
+
+* [SQLite online](https://sqliteonline.com/)
