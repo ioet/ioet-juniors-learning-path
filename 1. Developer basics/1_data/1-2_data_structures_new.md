@@ -23,6 +23,7 @@ In a non-linear data structure, data elements are attached in hierarchically man
   - [Linked-list](#linked-list)
   - [Stack](#stack)
   - [Queue](#queue)
+  - [Hashing data structures](#hashing-data-structure)
 - [Non-linear data structure](#Non-linear-data-structure)
   - [Graphs](#graphs)
   - [Trees](#trees)
@@ -349,6 +350,144 @@ queue = Queue.new
 [Queue in Ruby](https://ruby-doc.org/core-2.5.0/Queue.html)
 
 </td>
+
+</table>
+
+
+
+#### Hashing data structure
+
+Hashing is a technique or process of mapping keys, values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.
+
+Hash Map and Hash Table
+
+- [Hash Table](https://www.tutorialspoint.com/data_structures_algorithms/hash_data_structure.htm) is a data structure which stores data in an associative manner. In a hash table, data is stored in an array format, where each data value has its own unique index value.
+- Can be implemented as a linear or non-linear data structure. Often, they are implemented as a linear data structure.
+- Insertion and search operations are very fast irrespective of the size of the data.
+- In a hash table, a new index is processed using the keys. And, the element corresponding to that key is stored in the index. This process is called [hashing](https://www.programiz.com/dsa/hash-table).
+
+- [HashMap](https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/) is similar to HashTable, but it is unsynchronized. It allows to store the null keys as well, but there should be only one null key object and there can be any number of null values.
+
+[More about Hash Table](https://www.geeksforgeeks.org/hashing-data-structure/)
+
+Hash Table operations:
+
+- Search: Searches an element in a hash table.
+- Insert: inserts an element in a hash table.
+- Delete: Deletes an element from a hash table.
+
+Complexity of different operations in a hash table:
+
+| Queue Operations | BEST CASE Complexity |
+| ------ | ------ |
+| Search | O(1)|
+| Insert | O(1) |
+| Delete | O(1)|
+| Space Complexity | O(n) |
+
+[More about complexity of Hash Table](https://iq.opengenus.org/time-and-space-complexity-of-queue/): This article covers Time and Space Complexity of Hash Table operations for different operations like search, insert and delete for two variants of Hash Table that is Open and Closed Addressing.
+
+ language   |               |
+-----------:|------------------:|
+`C#`        | [Example](https://www.tutorialsteacher.com/csharp/csharp-hashtable) |
+`Java`      | [Example](https://www.geeksforgeeks.org/hashtable-in-java/) |
+`Go`        | [Example](https://fodor.org/blog/go-hash-table/) |
+`Python`    | [Example](https://www.bogotobogo.com/python/python_hash_tables_hashing_dictionary_associated_arrays.php) |
+`Js`        | [Example](https://www.educative.io/blog/data-strucutres-hash-table-javascript)
+
+Dictionary
+
+A dictionary consists of a collection of key-value pairs. Each key-value pair maps the key to its associated value
+
+<table>
+<tr><td> Language </td><td> Declaration </td><td> Examples </td></tr><tr>
+<tr>
+<td> C# </td>
+<td>
+
+```C#
+IDictionary<int, string> numberNames = new Dictionary<int, string>();
+```
+
+</td>
+<td> 
+
+[URL](https://www.tutorialsteacher.com/csharp/csharp-dictionary).
+
+</td>
+</tr>
+
+<tr>
+<td> Java </td>
+<td>
+
+```Java
+Hashtable<String, String> my_dict = new Hashtable<String, String>();
+```
+
+</td>
+<td> 
+
+[URL](https://www.educative.io/edpresso/how-to-create-a-dictionary-in-java).
+
+</td>
+</tr>
+
+<tr>
+<td> Rust </td>
+<td>
+
+```Rust
+pub struct HashMap<K, V, S = RandomState> { /* private fields */ }
+```
+
+</td>
+<td> 
+
+[URL](https://doc.rust-lang.org/std/collections/struct.HashMap.html).
+
+</td>
+</tr>
+
+<tr>
+<td> python </td>
+<td>
+
+```Python
+MLB_team = {
+...     'Colorado' : 'Rockies',
+...     'Boston'   : 'Red Sox',
+...     'Minnesota': 'Twins',
+...     'Milwaukee': 'Brewers',
+...     'Seattle'  : 'Mariners'
+... }
+```
+
+</td>
+<td> 
+
+[URL](https://realpython.com/python-dicts/).
+
+</td>
+</tr>
+<tr><td> Js </td>
+<td>
+
+```
+const person = {
+firstName: "John",
+lastName: "Doe",
+age: 50,
+status: "marketing contact"
+};
+```
+</td>
+<td>
+
+[URL](https://blog.hubspot.com/website/javascript-dictionary)
+
+</td>
+</tr>
 
 </table>
 
