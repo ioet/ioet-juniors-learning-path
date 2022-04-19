@@ -8,17 +8,43 @@
 - [Jean Pierre Alvarado](https://github.com/PieritoAlva95)
 - [Joseph Guerrero](https://github.com/JuanJosephG)
 
+## Content
+
+- [Introduction](#introduction)
+- [Features comparison](#features-comparison)
+- [Internet search volume](#internet-search-volume)
+- [How to install and set up Zsh as default](#how-to-install-and-set-up-zsh-as-default)
+- [Zsh Customization](#zsh-customization)
+    - [OhMyZsh](#ohmyzsh)
+        - [Installation](#installation)
+        - [Themes](#themes)
+        - [Plugins](#plugins)
+            - [zsh-autosuggestions](#zsh-autosuggestions)
+            - [Top Plugins Here](#top-plugins-here)
+        - [Favorite Zsh features](#favorite-zsh-features)
+            - [Help with Git](#help-with-git)
+            - [Tab completion on ‘cd’](#tab-completion-on-cd)
+            - [See More Features Here](#see-more-features-here)
+            - [Personal Experience](#personal-experience)
+    - [Powerlevel10k](#powerlevel10k)
+        - [Powerlevel10k Themes](#powerlevel10k-themes)
+        - [Personal Experience](#personal-experience-1)
+    - [Oh My Posh](#oh-my-posh)
+        - [Installation](#installation-1)
+        - [Themes](#themes-1)
+        - [Swap to another theme](#swap-to-another-theme)
+        - [Personal Experience](#personal-experience-2)
+
 ## Introduction
 
-Shell is a program that takes commands from the keyboard and gives them to the operating system to
-perform. In the old days, it was the only user interface available on a Unix-like system such as
-Linux. Nowadays, we have graphical user interfaces (GUIs) in addition to command line interfaces (
+Shell is a program that takes commands from the keyboard and gives them to the operating system to perform. In the old
+days, it was the only user interface available on a Unix-like system such as Linux. Nowadays, we have graphical user
+interfaces (GUIs) in addition to command line interfaces (
 CLIs) such as the shell.
 
-On most Linux systems a program called bash (which stands for Bourne Again SHell, an enhanced
-version of the original Unix shell program, sh, written by Steve Bourne) acts as the shell program.
-Besides bash, there are other shell programs available for other systems. These include: ksh, tcsh
-and zsh.
+On most Linux systems a program called bash (which stands for Bourne Again SHell, an enhanced version of the original
+Unix shell program, sh, written by Steve Bourne) acts as the shell program. Besides bash, there are other shell programs
+available for other systems. These include: ksh, tcsh and zsh.
 
 Check the difference about Terminal and Shell in the next video:
 
@@ -26,17 +52,16 @@ Check the difference about Terminal and Shell in the next video:
 
 Check the following free course about Shell: [Udacity link](https://www.udacity.com/course/ud595)
 
-- Bash is an acronym for Bourn Again Shell, a pun on the name Stephen Bourne, creator of one of
-  Bash's predecessors. It is a shell program written by Brian Fox as an upgraded version of Bourne
-  Shell program 'sh'. Bash operates not only on Linux, however; it's also available on macOS and
-  BSD, and you can use it on Windows through Windows Subsystem for Linux.
+- Bash is an acronym for Bourn Again Shell, a pun on the name Stephen Bourne, creator of one of Bash's predecessors. It
+  is a shell program written by Brian Fox as an upgraded version of Bourne Shell program 'sh'. Bash operates not only on
+  Linux, however; it's also available on macOS and BSD, and you can use it on Windows through Windows Subsystem for
+  Linux.
 
-- Zsh is one of them which was invented after Bash. It has many features like Bash but some features
-  of Zsh make it better and improved than Bash, such as spelling correction, cd automation, better
-  theme, and plugin support, etc. Zsh or Z shell is not installed in the system by default. The
-  users need to install this shell to use it. It has features like interactive Tab completion,
-  automated file searching, regex integration, advanced shorthand for defining command scope, and a
-  rich theme engine.
+- Zsh is one of them which was invented after Bash. It has many features like Bash but some features of Zsh make it
+  better and improved than Bash, such as spelling correction, cd automation, better theme, and plugin support, etc. Zsh
+  or Z shell is not installed in the system by default. The users need to install this shell to use it. It has features
+  like interactive Tab completion, automated file searching, regex integration, advanced shorthand for defining command
+  scope, and a rich theme engine.
 
 ## Features comparison
 
@@ -66,52 +91,28 @@ Check the following free course about Shell: [Udacity link](https://www.udacity.
 | Auto completion works faster.                                                                 | Auto completion is slower.                                                    |
 | Smaller community                                                                             | Wider community                                                               |
 
+## Internet search volume
+
+Here's a Google Trends [chart](https://trends.google.com/trends/explore?q=ZSH,%2Fm%2F01g7l), which show the search
+volume comparison for both shells:
+
+![bash-zsh](https://i.ibb.co/XCFT0rM/bash-zsh.png)
+
 ## How to install and set up Zsh as default
 
 Installation on many platforms and setting up Zsh as default you can
 find [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#install-and-set-up-zsh-as-default)
 .
 
-## Contents
-
-- [Bash and Zsh](#bash-and-zsh)
-  - [Contributors](#contributors)
-  - [Introduction](#introduction)
-  - [Features comparison](#features-comparison)
-  - [How to install and set up Zsh as default](#how-to-install-and-set-up-zsh-as-default)
-  - [Contents](#contents)
-  - [Zsh Customization](#zsh-customization)
-    - [OhMyZsh](#ohmyzsh)
-      - [Installation](#installation)
-      - [Themes](#themes)
-      - [Plugins](#plugins)
-        - [zsh-autosuggestions](#zsh-autosuggestions)
-        - [Top Plugins Here](#top-plugins-here)
-      - [Favorite Zsh features](#favorite-zsh-features)
-        - [Help with Git](#help-with-git)
-        - [Tab completion on ‘cd’](#tab-completion-on-cd)
-        - [See More Features Here](#see-more-features-here)
-        - [Personal Experience](#personal-experience)
-    - [Powerlevel10k](#powerlevel10k)
-      - [Powerlevel10k Themes](#powerlevel10k-themes)
-      - [Personal Experience](#personal-experience-1)
-    - [Oh My Posh](#oh-my-posh)
-      - [Installation](#installation-1)
-      - [Themes](#themes-1)
-      - [Swap to another theme](#swap-to-another-theme)
-      - [Personal Experience](#personal-experience-2)
-    - [Internet search volume](#internet-search-volume)
-
 ## Zsh Customization
 
-Within our profession as software developers is important the speed and simplicity of everyday tasks
-and one of those is the use of the terminal, the terminal we use all day and for virtually
-everything, so we require a terminal that we can customize to accommodate and obviously simplify
-everything we can.
+Within our profession as software developers is important the speed and simplicity of everyday tasks and one of those is
+the use of the terminal, the terminal we use all day and for virtually everything, so we require a terminal that we can
+customize to accommodate and obviously simplify everything we can.
 
-As mentioned before, ZSH (Z shell) is a terminal (or rather shell) for interactive use that will
-allow us to be more efficient when we are in front of the console. This shell allows us to
-interpret, in addition to commands, scripts which can become extremely useful.
+As mentioned before, ZSH (Z shell) is a terminal (or rather shell) for interactive use that will allow us to be more
+efficient when we are in front of the console. This shell allows us to interpret, in addition to commands, scripts which
+can become extremely useful.
 
 Listed below are some customizations/settings that you can use:
 
@@ -119,9 +120,8 @@ Listed below are some customizations/settings that you can use:
 
 ![Oh-my_zsh](./assets/Oh-My-Zsh.png)
 
-Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh
-configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a
-few things that make you shout...
+Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled
+with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
 
 ["Oh My ZSH!"](https://ohmyz.sh)
 
@@ -134,28 +134,27 @@ few things that make you shout...
 
 #### Themes
 
-First we start from the themes, ZSH provides a variety of themes that can be viewed in the official
-repository of [Themes - OhMyZsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes).
+First we start from the themes, ZSH provides a variety of themes that can be viewed in the official repository
+of [Themes - OhMyZsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes).
 
-To open the configuration file you can use `vim` or `nano` in my case, I used nano to edit the
-configuration file `.zshrc`.
+To open the configuration file you can use `vim` or `nano` in my case, I used nano to edit the configuration
+file `.zshrc`.
 
 ```terminal
 nano ~/.zshrc
 ```
 
-In order to enable a theme, set ZSH_THEME to the name of the theme in your ~/.zshrc, before sourcing
-Oh My Zsh; for example: ZSH_THEME=robbyrussell If you do not want any theme enabled, just set
-ZSH_THEME to blank: ZSH_THEME=""
+In order to enable a theme, set ZSH_THEME to the name of the theme in your ~/.zshrc, before sourcing Oh My Zsh; for
+example: ZSH_THEME=robbyrussell If you do not want any theme enabled, just set ZSH_THEME to blank: ZSH_THEME=""
 or you can select from the list of themes provided by the GitHub repository.
 
 #### Plugins
 
-To install plugins, the OhMyZsh repository has a list of plugins that can be added to the terminal.
-You can check the list here [Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins).
+To install plugins, the OhMyZsh repository has a list of plugins that can be added to the terminal. You can check the
+list here [Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins).
 
-Enable a plugin by adding its name to the plugins array in your .zshrc file (found in the $HOME
-directory). For example, this enables the `rails`, `git` and `ruby` plugins, in that order:
+Enable a plugin by adding its name to the plugins array in your .zshrc file (found in the $HOME directory). For example,
+this enables the `rails`, `git` and `ruby` plugins, in that order:
 
 ```sh
 plugins=(rails git ruby)
@@ -210,10 +209,9 @@ plugins=(rails git ruby)
 
 ![](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/performance.gif)
 
-Powerlevel10k, is a **theme** for zsh which stands out a lot for its appearance and that adds
-value (speed, flexibility and out-of-the-box experience) with data that can often be interesting
-that you can read in their [documentation](https://github.com/romkatv/powerlevel10k#readme) within
-which you can highlight:
+Powerlevel10k, is a **theme** for zsh which stands out a lot for its appearance and that adds value (speed, flexibility
+and out-of-the-box experience) with data that can often be interesting that you can read in
+their [documentation](https://github.com/romkatv/powerlevel10k#readme) within which you can highlight:
 
 - Script execution time
 - Git status
@@ -221,8 +219,7 @@ which you can highlight:
 
 In order to install this theme on your zsh terminal, follow the next 4 steps:
 
-1. Install
-   the [recommended font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+1. Install the [recommended font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
    .
 2. Install [Powerlevel 10k](https://github.com/romkatv/powerlevel10k#installation) itself.
 3. Restart Zsh with `exec zsh` or by closing the current terminal and opening a new one.
@@ -230,8 +227,8 @@ In order to install this theme on your zsh terminal, follow the next 4 steps:
 
 #### Powerlevel10k Themes
 
-Run the following command: `p10k configure` to be able to configure the desired theme. And a
-configuration wizard will appear where we will give the styles and the configurations that we want (
+Run the following command: `p10k configure` to be able to configure the desired theme. And a configuration wizard will
+appear where we will give the styles and the configurations that we want (
 see the image).
 
 ![](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/configuration-wizard.gif)
@@ -246,8 +243,8 @@ In addition, this command will allow you to configure Powerlevel10k as many time
 
 > Oh My Posh is a custom prompt engine for any shell that has the ability to adjust the prompt string with a function or variable. This engine allows you to customize any shell and offers many themes that can be used. It can be installed on Windows, MacOS and Linux.
 
-The [documentation](https://ohmyposh.dev) details what Oh My Posh offers and if you don’t want to
-use an existing theme you can create a custom theme.
+The [documentation](https://ohmyposh.dev) details what Oh My Posh offers and if you don’t want to use an existing theme
+you can create a custom theme.
 ![](https://lh4.googleusercontent.com/J5IwMUNOb9IHLdhG5hXj_nPOdfZCOCSyoq97al00jA930tGsdVP_emm6IxiXdekoNWKA66DpJoFlaIx-fSged9bYhzpBqWx9_z4T_91qOZv1errAqtVvhbE80ykRahFwArjN26jb)
 
 #### Installation
@@ -261,9 +258,8 @@ It is recommended to follow the OH MY POSH documentation step by step.
 #### Themes
 
 Oh my posh offers many themes out of the box. In this link you can see the screenshot of
-the [most common themes](https://ohmyposh.dev/docs/themes) and in case you want to see the entire
-catalog of themes you can access
-the [github repository](https://github.com/JanDeDobbeleer/oh-my-posh/tree/main/themes)
+the [most common themes](https://ohmyposh.dev/docs/themes) and in case you want to see the entire catalog of themes you
+can access the [github repository](https://github.com/JanDeDobbeleer/oh-my-posh/tree/main/themes)
 
 These are some of my personal favorite themes because of their simplicity.
 
@@ -288,9 +284,4 @@ folder and follow the steps to replace your existing prompt according to your op
 
 > What I liked the most about the oh my posh themes is the option to see the time and the current branch you are on, of course this depends on the theme that is chosen or the custom theme that is configured. However when using the mac terminal the theme doesn't look right and when resizing the window the time on the right side doesn't fit well. One option that Oh my posh recommends is to use the [iTerm2](https://iterm2.com) terminal emulator
 
-### Internet search volume
 
-Here's a Google Trends [chart](https://trends.google.com/trends/explore?q=ZSH,%2Fm%2F01g7l), which
-show the search volume comparison for both shells:
-
-![bash-zsh](https://i.ibb.co/XCFT0rM/bash-zsh.png)
