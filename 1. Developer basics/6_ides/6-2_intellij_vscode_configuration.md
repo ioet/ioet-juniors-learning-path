@@ -142,4 +142,5 @@ However, for most debugging scenarios, creating a launch configuration file is b
 To create a `launch.json` file, click the create a launch.json file link in the Run start view. VS Code will try to automatically detect your debug environment, but if this fails, you will have to choose it manually.
 
 ### Linter
+
 To configure the linter according to the programming language, we can use the [Extensions](#https://marketplace.visualstudio.com/VSCode), here we will find lint rules for all languages and when we install them VS code will detect the language and activate the linter.
