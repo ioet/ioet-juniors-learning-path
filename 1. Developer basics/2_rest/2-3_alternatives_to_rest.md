@@ -1,83 +1,150 @@
-# ALTERNATIVES TO REST
+# Alternatives to REST
 
-- [ALTERNATIVES TO REST](#alternatives-to-rest)
-  - [SOAP](#soap)
-    - [Example](#example)
-  - [GRAPHQL](#graphql)
-    - [Example](#example-1)
-  - [FALCOR](#falcor)
-    - [Example](#example-2)
-    - [References](#references)
+In this document you will find another alternatives to rest, specifically, we will focus on the following alternatives:
 
-## SOAP
+- GraphQL
+- WebSockets
+- gRPC
 
-Shortly, SOAP is XML. SOAP is a protocol that uses the XML specification for communication between the client and the server. It is a viable alternative to REST due to its robust and reliable architecture. A SOAP message is based on the syntax of XML `http://www.w3.org/2001/06/soap-envelope` namespace.
+## Authors
 
-### Example
+- Jean Carlos Alarcón @jcalarcon98
 
-```rest
-<env:Envelope xmlns:env="http://www.w3.org/2001/09/soap-envelope">
-  <env:Header>
-    <n:note xmlns:n="http://example.org/note">
-      <n:priority>1</n:priority>
-      <n:expires>2021-12-10T14:00:00-05:00</n:expires>
-    </n:note>
-  </env:Header>Header>
-  <env>Body>
-    <m:alert xmlns:m="http://example.org/alert">
-      <m:msg>Don't forget fill out Time Tracker</m:msg>
-    </m:alert>
-  </env>Body>
-</env:Envelope>Envelope>
-```
+## Topics
 
-## GRAPHQL
+- [Alternatives to REST](#alternatives-to-rest)
+  - [Authors](#authors)
+  - [Topics](#topics)
+  - [GraphQL](#graphql)
+    - [Advantages](#advantages)
+    - [Disadvantages](#disadvantages)
+    - [A brief comparison with rest focusing in Data Fetching](#a-brief-comparison-with-rest-focusing-in-data-fetching)
+    - [GraphQL - Additional Resources](#graphql---additional-resources)
+  - [WebSockets](#websockets)
+    - [When to use WebSocket?](#when-to-use-websocket)
+    - [When not to use WebSocket?](#when-not-to-use-websocket)
+    - [WebSockets - Additional Resources](#websockets---additional-resources)
+  - [gRPC](#grpc)
+    - [Characteristics](#characteristics)
+    - [gRPC vs REST](#grpc-vs-rest)
+    - [When to use gRPC?](#when-to-use-grpc)
+    - [gRPC - Additional Resources](#grpc---additional-resources)
 
-GraphQL is a query language that serves as an agnostic transport of the protocols but is commonly used with HTTP. GraphQL provides a complete and understandable description of the data. It is not tied to any database or storage manager, so it can be attached to any project.
+## [GraphQL](https://graphql.org/)
 
-### Example
+**GraphQL** is a modern alternative to rest created by Facebook in 2012. It is a query language for your APIs and a runtime for fulfilling those queries with your existing data. Provides a complete description of the data in your API. The most important feature of GraphQL is that it allows the client to ask for exactly what they need even in a single request.
+
+GraphQL has three primary operations:
+
+1. **Query** for reading data.
+2. **Mutation** for writing data.
+3. **Subscription** for automatically receiving real-time data.
+
+### Advantages
+
+- Good for complex systems and microservices.
+- Fetching data with a single API call.
+- No over/under fetching problems.
+- Autogenerate API documentation.
+- API evolution without versioning.
+- Code-sharing.
+
+### Disadvantages
+
+- Web caching complexity.
+- File uploading.
+- Complex learning curve.
+
+### A brief comparison with rest focusing in Data Fetching
+
+Suppose you have to get the next time tracker information for a specific user:
+
+- User
+- User entries
+- User projects
+
+With a **REST API** you would typically retrieve the data by accessing multiple endpoints, for example you have to execute a [GET](2-1_http_verbs.md/#get) for each endpoint.
+
+- GET /users/{id}
+- GET /users/{id}/entries
+- GET /users/{id}/projects
+
+On the other hand, with GraphQL you would send a single query to the GraphQL server including the data you need, something like this:
 
 ```graphql
-type User {
-  id: ID
-  name: String
-}
-
-function Query_me(request) {
-  return request.auth.user;
+query getUser($id: Int){
+  user(id: $id) {
+    name,
+    lastName,
+    projects: {
+      name
+    },
+    entries: {
+      initDate,
+      endDate
+    }
+  }
 }
 ```
 
-## FALCOR
+And the server will respond with a JSON objects, with all the information you have requested, everything in one only request.
 
-Falcor is a library for JavaScript, developed and maintained by Netflix, which allows abstracting the sources from which the data comes and representing them as a single domain model in a way that facilitates access and increases productivity by always having all the data available.
+### GraphQL - Additional Resources
 
-### Example
+- [GraphQL Official Page](https://graphql.org/)
+- [GraphQL: Core Features, Architecture, Pros and Cons](https://www.altexsoft.com/blog/engineering/graphql-core-features-architecture-pros-and-cons/)
+- [Why adopt GraphQL?](https://www.apollographql.com/docs/intro/benefits/)
 
-```javascript
-var falcor = require("falcor");
-var model = new falcor.Model({
-  cache: {
-    todos: [
-      {
-        name: "get milk from corner store",
-        done: false,
-      },
-      {
-        name: "withdraw money from ATM",
-        done: true,
-      },
-    ],
-  },
-});
+## WebSockets
 
-// This returns:
-// "get milk from corner store"
-var name = await model.getValue("todos[0].name");
-```
+Websocket is a bidirectional communication protocol over a TCP connection. It is a stateful protocol, which means the connection between client and server will keep alive until it is terminated by either party (client or server). It can be used at the same time with REST apis.
 
-### References
+### When to use WebSocket?
 
-- O'Reilly Book: [SOAP](https://learning.oreilly.com/library/view/programming-web-services/0596000952/ch02.html)
+It can be used in application that require real-time communication, for example:
 
-- O'Reilly Book: [FALCOR](https://netflix.github.io/falcor/)
+- Real-time web applications.
+- Gaming Applications.
+
+### When not to use WebSocket?
+
+As you know, if we want real-time communication between client and server, go for WebSocket, but if we want to fetch old data, or if we want to get data only once to process it with an application, you should go with **HTTP protocol**.
+
+### WebSockets - Additional Resources
+
+- [WebSockets Official Doc](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+- [Difference between HTTP and WebSocket](https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/)
+
+## [gRPC](https://github.com/grpc/grpc)
+
+gRPC is a modern, open source, high-performance remote procedure call (RPC) framework developed by Google using **HTTP/2** that can run anywhere. gRPC enables client and server applications to communicate transparently, and simplifies the building of connected systems.
+
+### Characteristics
+
+- Highly efficient on wire and with a simple service definition framework.
+- Simple service definition.
+- Work across languages and platforms.
+- Star quickly and scale.
+- Bi-directional streaming and integrate auth.
+- Easy to use.
+
+### gRPC vs REST
+
+| Features                     | gRPC                                                                                                                         | Rest                                                                                             |
+|------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **HTTP 1.1 vs HTTP 2**       | Follows a client-response model and is built on HTTP 2, which allows for: streaming communication and bidirectional support. | Follows a request-response model  and is typically built on HTTP 1.1.                            |
+| **Browser Support**          | Limited browser support. gRPC requires gRPC-web and a proxy layer to perform conversions between HTTP 1.1 and HTTP 2.        | Universal browser support.                                                                       |
+| **Payload Data Structure**   | gRPC uses Protocol Buffer by default to serialize payload data.                                                              | REST mainly relies on JSON or XML formats to send and receive data.                              |
+| **Code Generation Features** | gRPC has native code generation features.                                                                                    | Developers must use a third-party tool like Swagger or Postman to produce code for API requests. |
+
+### When to use gRPC?
+
+**gRPC** architectural style has promising features that should be explored, for example:
+
+- Efficiently connecting polyglot services in microservices style architecture.
+- Connecting mobile devices, browser clients to backend services.
+- Generating efficient client libraries.
+
+### gRPC - Additional Resources
+
+- [gRPC Official Page](https://grpc.io/)
