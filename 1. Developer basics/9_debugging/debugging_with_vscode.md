@@ -62,8 +62,33 @@ Expressions can be evaluated in the Debug Console. To open the Debug Console use
 
 ![Debug Console](https://code.visualstudio.com/assets/docs/editor/debugging/debugconsole.png)
 
+#### Debugging with docker
+
+When you want to do remote debugging from a docker container you have to expose a port which you are going to attach to vscode debugger
+
+For example in js you could be run
+
+```shell
+docker run -it --rm -p 9229:9229 -v "$(pwd):/usr/src/app" -w "/usr/src/app" node:16.13.1 node --inspect-brk=0.0.0.0 main.js
+```
+
+and in the debug configuration you can add the port to which it is going to access
+
+``` Json
+{
+    "name": "Attach",
+    "port": 9229,
+    "request": "attach",
+    "skipFiles": [
+        "<node_internals>/**"
+    ],
+    "type": "node"
+},
+```
+
 #### More info
 
 - [Debugging in Visual Studio Code](https://code.visualstudio.com/docs/editor/debugging)
 - [Debugging feature tutorial](https://www.microsoft.com/videoplayer/embed/RWAIIi)
 - [How to debug Node.js apps in Visual Studio Code](https://blog.logrocket.com/how-to-debug-node-js-apps-in-visual-studio-code/)
+- [How to debug containerized apps](https://code.visualstudio.com/docs/containers/debug-common)
