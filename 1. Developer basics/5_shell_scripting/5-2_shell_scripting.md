@@ -1,14 +1,19 @@
 # Shell Scripting
 
+## Author
+
+- [Jipson Murillo](https://github.com/Jobzi)
+
 ![Shell](https://miro.medium.com/max/1162/0*SuLFBZ0FTHLh1mp5.png)
 
 You might have came across the word ‘script’ a lot of times, but what is the meaning of a script? Basically, a script is a program that contains a series of commands to be executed. These commands are executed by an interpreter. Anything you can put into a command line, you can put in a script. And, scripts are great for automating tasks.  
 If you find yourself repeating some commands frequently, you can, rather you should, create a script for doing it!
 
-## Topics
+## Content
 
 - [Shell Scripting](#shell-scripting)
-  - [Topics](#topics)
+  - [Author](#author)
+  - [Content](#content)
   - [¿What is CLI and GUI?](#what-is-cli-and-gui)
   - [¿Why would we use CLI over GUI?](#why-would-we-use-cli-over-gui)
   - [¿What is Shell?](#what-is-shell)
@@ -19,8 +24,8 @@ If you find yourself repeating some commands frequently, you can, rather you sho
   - [Types of Shell](#types-of-shell)
   - [Basic Commands](#basic-commands)
   - [Daily use Examples of Shell scripting by System Admins](#daily-use-examples-of-shell-scripting-by-system-admins)
-  - [GREP command](#grep-command)
-  - [Shell Scrpting Topics](#shell-scrpting-topics)
+  - [Basic GREP command](#basic-grep-command)
+  - [Shell Scripting Topics](#shell-scripting-topics)
   - [Reference](#reference)
 
 ## ¿What is CLI and GUI?
@@ -167,7 +172,7 @@ There are two main shells in Linux:
 - Find out information about local or remote servers.
 - Server configuration.
 
-## GREP command
+## Basic GREP command
 
 The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern. The pattern that is searched in the file is referred to as the regular expression (grep stands for globally search for regular expression and print out).
 
@@ -191,7 +196,7 @@ grep [options] pattern [files]
 **-B n :** Prints searched line and n line before the result.  
 **-C n :** Prints searched line and n lines after before the result.
 
-## Shell Scrpting Topics
+## Shell Scripting Topics
 
 1. [Variables](https://www.shellscript.sh/variables1.html)
 2. [Wildcards](https://www.shellscript.sh/wildcards.html)
