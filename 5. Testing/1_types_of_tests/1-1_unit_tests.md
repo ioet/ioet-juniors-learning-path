@@ -24,7 +24,6 @@ A unit test is a way of testing the smallest piece of code. In most programming 
 
 Unit testing has the greatest effect on the quality of your code when it's an integral part of your software development workflow. As soon as you write a function or other block of application code, create unit tests that verify the behavior of the code in response to standard, boundary, and incorrect cases of input data, and that check any explicit or implicit assumptions made by the code
 
-
 ## What makes a good unit test?
 
 Unit testing principles demand that a good test is:
@@ -71,7 +70,6 @@ def test_add_single_number_should_return_same_number():
 
 It allow us to clearly separates what is being tested from the arrange and assert steps. This pattern also increases readability, one of the most important aspects when writing a test. Separating each of these actions within the test clearly highlight the dependencies required to call your code, how your code is being called, and what you are trying to assert.
 
-
 **Example**
 
 ```python
@@ -101,11 +99,9 @@ def test_add_empty_string_should_return_zero():
 
 ```
 
-
 ### Avoid logic in tests
 
 When writing your unit tests avoid manual string concatenation and logical conditions such as `if`, `while`, `for`, `switch`, etc, because you need to focus on the end result, rather than implementation details also there is less chance to introduce a bug inside of your tests.
-
 
 ### Avoid multiple acts
 
@@ -122,7 +118,7 @@ When writing your tests, try to only include one Act scenario per test. Common a
 
 ## Additional Resources for Unit Testing
 
--  [JavaScript Unit Testing Guide](https://github.com/mawrkus/js-unit-testing-guide)
+- [JavaScript Unit Testing Guide](https://github.com/mawrkus/js-unit-testing-guide)
 - [Unit testing tips by examples in PHP](https://github.com/sarven/unit-testing-tips)
 - [Angular Testing Course](https://github.com/angular-university/angular-testing-course)
 - [Unit Testing best practices with .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
