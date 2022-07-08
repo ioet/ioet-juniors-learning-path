@@ -1,6 +1,5 @@
 # Unit tests
 
-In this document you will find the most useful shortcuts for JetBrains IDEs and VSCode, also some tips that will make you more productive.
 
 ## Authors
 
