@@ -5,7 +5,19 @@
 - Daniela García @dsgarcia8
 - Jean Carlos Alarcón @jcalarcon98
 
-## What is a Design Pattern?
+## Topics
+
+- [What are Design Patterns](#what-are-design-patterns)
+- [Difference between Design Pattern and an algorithm](#difference-between-design-pattern-and-an-algorithm)
+- [What does the pattern consist of](#what-does-the-pattern-consist-of)
+- [Classification of patterns](#classification-of-patterns)
+  - [Creational Patterns](#creational-patterns)
+  - [Structural Patterns](#structural-patterns)
+  - [Behavioral Patterns](#behavioral-patterns)
+- [Why Should I Learn Patterns?](#why-should-i-learn-patterns)
+- [Resources to learn design patterns](#resources-to-learn-design-patterns)
+
+## What are Design Patterns?
 
 Design patterns are typical solutions to commonly occurring problems in software design. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code.
 
@@ -65,8 +77,6 @@ The most universal and high-level patterns are architectural patterns. Developer
 - Strategy
 - Template Method
 - Visitor
-
-
 
 ## Why Should I Learn Patterns?
 
