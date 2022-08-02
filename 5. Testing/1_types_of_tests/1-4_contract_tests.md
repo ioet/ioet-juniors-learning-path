@@ -9,8 +9,8 @@
 
 - [What is Contract Testing?](#what-is-contract-testing)
 - [When to use Contract Testing?](#when-to-use-contract-testing)
+- [Basic concepts](#basic-concepts)
 - [Contract testing types](#contract-testing-types)
-  - [Basic concepts](#basic-concepts)
   - [Consumer-driven](#consumer-driven)
   - [Producer-driven](#producer-driven)
 - [Benefits of contract testing](#benefits-of-contract-testing)
@@ -33,13 +33,13 @@ It is mostly used for:
 - Detecting any service configuration defects
 - Keeping the connections safe even when the producer changes any service configuration
 
-## Contract testing types
-
-### Basic concepts
+## Basic concepts
 
 - Isolated service: An isolated service typically consists of a consumer and a producer. To complete a task, these isolated services may need to interact. A successful interaction would indicate that a consumer and a producer are adhering to a common contract.
 - Consumer:  This service is reliant on a producer to do their work.
 - Producer: It provides relevant info to the consumer, assisting the consumer in completing their task.
+
+## Contract testing types
 
 ### Consumer-driven
 
