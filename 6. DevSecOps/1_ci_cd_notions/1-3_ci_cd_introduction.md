@@ -8,9 +8,9 @@
 
 - [Introduction](#introduction)
 - [What is CI/CD?](#what-is-cicd)
-    - [Continuous integration](#continuous-integration)
-    - [Continuous delivery](#continuous-delivery)
-    - [Continuous deployment](#continuous-deployment)
+  - [Continuous integration](#continuous-integration)
+  - [Continuous delivery](#continuous-delivery)
+  - [Continuous deployment](#continuous-deployment)
 - [Conclusions](#conclusions)
 - [References](#references)
 
@@ -53,10 +53,10 @@ users, and many organizations now release software every week, every day, or mul
 
 #### Benefits
 
-* Easier bug fixes
-* Reduced project risk
-* Improved software quality
-* Higher productivity
+- Easier bug fixes
+- Reduced project risk
+- Improved software quality
+- Higher productivity
 
 ### Continuous delivery
 
@@ -69,10 +69,10 @@ and monitoring those changes, and ensuring these changes do not happen if there 
 
 #### Benefits
 
-* Automate the software release process
-* Improve developer productivity
-* Find and address bugs quicker
-* Deliver updates faster
+- Automate the software release process
+- Improve developer productivity
+- Find and address bugs quicker
+- Deliver updates faster
 
 ### Continuous deployment
 
@@ -85,20 +85,20 @@ into the hands of users faster.
 
 #### Benefits
 
-* Create workflows across the development, testing, and production environments
-* Make deployments frictionless without compromising security.
-* Automate the repetitive tasks and focus on actual testing.
+- Create workflows across the development, testing, and production environments
+- Make deployments frictionless without compromising security.
+- Automate the repetitive tasks and focus on actual testing.
 
 ## Conclusions
 
-* CI/CD is a practice that allows rapid changes to software while maintaining system stability and security.
-* CI packages and tests software builds and alerts developers if their changes fail any unit tests.
-* CD is the automation that delivers applications, services, and other technology deployments to the runtime
+- CI/CD is a practice that allows rapid changes to software while maintaining system stability and security.
+- CI packages and tests software builds and alerts developers if their changes fail any unit tests.
+- CD is the automation that delivers applications, services, and other technology deployments to the runtime
   infrastructure and may execute additional tests.
 
 ## References
 
-* [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd#continuous-delivery)
-* [What is CI/CD? Everything You Need To Know](https://harness.io/blog/what-is-ci-cd)
-* [CI/CD: Continuous Integration & Delivery Explained](https://semaphoreci.com/cicd)
-* [Explore CI/CD: Continuous software for continuous change](https://www.ericsson.com/en/ci-cd?gclid=Cj0KCQjwgO2XBhCaARIsANrW2X2i4XzGuAfwKOcaaA5Fuh8IX0UlaR5DXANmB3KAzAOLOa_38Tpw73waAtjMEALw_wcB&gclsrc=aw.ds)
+- [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd#continuous-delivery)
+- [What is CI/CD? Everything You Need To Know](https://harness.io/blog/what-is-ci-cd)
+- [CI/CD: Continuous Integration & Delivery Explained](https://semaphoreci.com/cicd)
+- [Explore CI/CD: Continuous software for continuous change](https://www.ericsson.com/en/ci-cd?gclid=Cj0KCQjwgO2XBhCaARIsANrW2X2i4XzGuAfwKOcaaA5Fuh8IX0UlaR5DXANmB3KAzAOLOa_38Tpw73waAtjMEALw_wcB&gclsrc=aw.ds)
