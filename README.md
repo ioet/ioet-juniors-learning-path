@@ -11,33 +11,33 @@ The topics included in this repository are:
         - Data Types
         - Data structures
     * REST
-        - Http verbs
-        - REST protocols
-        - Alternatives to REST
-    * Server rendering vs single page apps
+        - [Http verbs](1.%20Developer%20basics/2_rest/2-1_http_verbs.md)
+        - [REST protocols](1.%20Developer%20basics/2_rest/2-2_rest_protocols.md)
+        - [Alternatives to REST](1.%20Developer%20basics/2_rest/2-3_alternatives_to_rest.md)
+    * [Server rendering vs single page apps](1.%20Developer%20basics/3_sr_vs_spa/sr_vs_spa.md)
     * Database
         - Relational, non relational, graph databases (Focus on when to use them)
-        - SQL most used operations
-        - ORM
+        - [SQL most used operations](1.%20Developer%20basics/4_database/4-4_sql_most_used_operations.md)
+        - [ORM](1.%20Developer%20basics/4_database/4-5_orm.md)
     * Shell scripting
-        - Bash vs shell vs zsh
+        - [Bash vs shell vs zsh](1.%20Developer%20basics/5_shell_scripting/5-1_bash_shell_zsh.md)
         - ZSH tuning (Oh My ZSH, powerlevel10K)
         - Bash programming (while, if, etc)
-        - Makefile
+        - [Makefile](1.%20Developer%20basics/5_shell_scripting/5-3_makefile.md)
     * IDE's
-        - IntelliJ and VSCode shortcuts
-        - IntelliJ and VSCode configuration
-        - VIM shortcuts and configuration
-    * Static code analysis
-    * Linting
+        - [IntelliJ and VSCode shortcuts](1.%20Developer%20basics/6_ides/6-1_intellij_vscode_shortcuts.md)
+        - [IntelliJ and VSCode configuration](1.%20Developer%20basics/6_ides/6-2_intellij_vscode_configuration.md)
+        - [VIM shortcuts and configuration](1.%20Developer%20basics/6_ides/6-3_vim_shorcuts_and_configuration.md)
+    * [Static code analysis](1.%20Developer%20basics/7_static_code_analysis/static_code_analysis.md)
+    * [Linting](1.%20Developer%20basics/8_linting/linting.md)
 
 2. Testing
     * Types of tests
-        - Unit tests
-        - Integration tests
-        - E2E tests
-        - Contract tests
-        - Functional tests (like E2E but only for the backend and frontend)
+        - [Unit tests](5.%20Testing/1_types_of_tests/1-1_unit_tests.md)
+        - [Integration tests](5.%20Testing/1_types_of_tests/1-2_integration_tests.md)
+        - [E2E tests](5.%20Testing/1_types_of_tests/1-3_e2e_tests.md)
+        - [Contract tests](5.%20Testing/1_types_of_tests/1-4_contract_tests.md)
+        - [Functional tests (like E2E but only for the backend and frontend)](5.%20Testing/1_types_of_tests/1-5_functional_tests.md)
         - Manual tests (Smoke Test)
     * Test strategies
         - Test pyramid (https://martinfowler.com/articles/practical-test-pyramid.html)
