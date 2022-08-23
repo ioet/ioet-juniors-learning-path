@@ -6,13 +6,18 @@
 
 ## Content
 
-- [Introduction](#introduction)
-- [What is CI/CD?](#what-is-cicd)
-  - [Continuous integration](#continuous-integration)
-  - [Continuous delivery](#continuous-delivery)
-  - [Continuous deployment](#continuous-deployment)
-- [Conclusions](#conclusions)
-- [References](#references)
+- [What does CI/CD consist of?](#what-does-cicd-consist-of)
+  - [Contributors](#contributors)
+  - [Content](#content)
+  - [Introduction](#introduction)
+  - [What is CI/CD?](#what-is-cicd)
+    - [Continuous integration](#continuous-integration)
+    - [Continuous delivery](#continuous-delivery)
+    - [Continuous deployment](#continuous-deployment)
+  - [CI/CD benefits](#cicd-benefits)
+  - [What are the differences between CI and CD?](#what-are-the-differences-between-ci-and-cd)
+  - [Conclusions](#conclusions)
+  - [References](#references)
 
 ## Introduction
 
@@ -51,13 +56,6 @@ issues immediately.
 CI greatly improves the quality and speed of software development. Teams can create more features that provide value to
 users, and many organizations now release software every week, every day, or multiple times a day.
 
-#### Benefits
-
-- Easier bug fixes
-- Reduced project risk
-- Improved software quality
-- Higher productivity
-
 ### Continuous delivery
 
 CD ensures that the code changes such as features, bug fixes, and configuration changes are prepared for release to the
@@ -66,13 +64,6 @@ production system in a quick, yet safe and sustainable manner.
 The goal of continuous delivery is to deliver a packaged artifact into a production environment. Also, CD
 responsibilities can include provisioning infrastructure, managing changes (ticketing), deploying artifacts, verifying
 and monitoring those changes, and ensuring these changes do not happen if there are any issues.
-
-#### Benefits
-
-- Automate the software release process
-- Improve developer productivity
-- Find and address bugs quicker
-- Deliver updates faster
 
 ### Continuous deployment
 
@@ -83,11 +74,36 @@ criteria for code releases ahead of time and when those criteria are met and val
 production environment. Thanks to this type of automation, organizations are able to be more nimble and get new features
 into the hands of users faster.
 
-#### Benefits
+## CI/CD benefits
 
+- Easier bug fixes
+- Reduced project risk
+- Improved software quality
+- Automate the software release process
+- Improve developer productivity
+- Find and address bugs quicker
+- Deliver updates faster
 - Create workflows across the development, testing, and production environments
 - Make deployments frictionless without compromising security.
 - Automate the repetitive tasks and focus on actual testing.
+
+## What are the differences between CI and CD?
+
+Continuous integration is simply the process of integrating changes made to the code into a mainline code base. For
+this, developers use platform specifically designed for this purpose.
+
+In contrast, continuous delivery is the processes that happen after the changes have been integrated in the code base to
+bring these changes to customers.
+
+So, the difference between CI and CD is not as much a case that they’re two different approaches, but rather two
+complimenting approaches.
+
+The difference between continuous integration and continuous deployment is that continuous deployment deploys changes to
+the customers automatically without any human intervention.
+
+Finally, the difference between continuous delivery and continuous deployment is that Continuous delivery is a partly
+manual process where developers can deploy any changes to customers by simply clicking a button, while continuous
+deployment emphasizes automating the entire the process.
 
 ## Conclusions
 
