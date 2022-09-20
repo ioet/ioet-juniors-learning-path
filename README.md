@@ -8,8 +8,8 @@ The topics included in this repository are:
 
 1. Basics:
     * Data:
-        - Data Types
-        - Data structures
+        - [Data Types](1.%20Developer%20basics/1_data/1-1_data_types_new.md)
+        - [Data structures](1.%20Developer%20basics/1_data/1-2_data_structures_new.md)
     * REST
         - [Http verbs](1.%20Developer%20basics/2_rest/2-1_http_verbs.md)
         - [REST protocols](1.%20Developer%20basics/2_rest/2-2_rest_protocols.md)
@@ -46,7 +46,7 @@ The topics included in this repository are:
 3. Test-Driven development
 
 4. DevSecOps
-    - CI/CD
+    - [CI/CD](6.%20DevSecOps/1_ci_cd_notions/1-3_ci_cd_introduction.md)
     - Security notions
     - Artifact repositories
     - Pipelines
@@ -58,7 +58,7 @@ The topics included in this repository are:
     - PaaS
     - Containers: docker
     - Deploy to K8S
-    - Container registries
+    - [Container registries](6.%20DevSecOps/1_ci_cd_notions/1-10_artifact_repository.md)
 
 5. Quality
     - Quality as a process
