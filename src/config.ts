@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = 'Learning Path';
 export const SITE_DESCRIPTION = 'This is a tiny example of a learning path site built with Astro and Contentful.';
-export const ASTRO_BASE = "/IOET-JUNIORS-LEARNING-PATH"
+export const ASTRO_BASE = "/ioet-juniors-learning-path"
