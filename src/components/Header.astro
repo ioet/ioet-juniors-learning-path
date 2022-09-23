@@ -1,0 +1,60 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE, ASTRO_BASE } from '../config';
+---
+
+<header>
+	<div class="flex">
+		<a href="/">
+			<img class="ioet" src={`${ASTRO_BASE}/ioet.png`} alt={SITE_TITLE}/>
+		</a>
+		<h1 class="text-gradient">
+			{SITE_TITLE}
+		</h1>
+	</div>
+	<nav>
+		<HeaderLink href={`${ASTRO_BASE}/`}>Home</HeaderLink>
+		<HeaderLink href={`${ASTRO_BASE}/ioet`}>Content</HeaderLink>
+	</nav>
+</header>
+<style>
+	.ioet {
+		height: 35px;
+		width: 35px;
+		border-radius: none;
+		box-shadow: none;
+	}
+	header {
+		margin: 0em 0 2em;
+	}
+	h1 {
+		margin: 0.5em 0;
+		padding-left: 5px;
+	}
+	.flex {
+		display: flex;
+		justify-content: baseline;
+		align-items: center;
+		border-bottom: 1px solid #eaeaea;;
+	}
+	.text-gradient {
+		font-weight: 900;
+		background-image: linear-gradient(0deg, #EA5058,#ec7c60);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 100% 200%;
+		background-position-y: 100%;
+		border-radius: 0.4rem;
+		animation: pulse 4s ease-in-out infinite;
+	}
+
+	@keyframes pulse {
+		0%,
+		100% {
+			background-position-y: 0%;
+		}
+		50% {
+			background-position-y: 80%;
+		}
+	}
+</style>

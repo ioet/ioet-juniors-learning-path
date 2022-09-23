@@ -1,0 +1,47 @@
+---
+export interface Props {
+	title: string;
+	description: string;
+    path: string;
+    bgColor: string;
+	image?: string;
+}
+const { 
+    title="Hello Word", description="This is a description", path="#", bgColor="#fadabd"
+} = Astro.props;
+---
+<div class="Card">
+    <a href={path}>{title}</a>
+    <p>{description}</p>
+</div>
+<style define:vars={{ bgColor }}>
+    div {
+        background-color: var(--bgColor);
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+    }
+    a {
+        font-size: 20px;
+        color: #4d4d4d;
+        margin: 0;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    p {
+        font-size: 14px;
+        color: #4d4d4d;
+        margin: 0;
+    }
+    .Card {
+        width: 100%;
+        max-width: 220px;
+     }
+    div:hover {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+    div a:hover {
+        color: #000;
+    }
+</style>
