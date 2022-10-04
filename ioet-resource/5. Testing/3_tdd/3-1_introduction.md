@@ -89,4 +89,4 @@ development. Some of the most popular ones are listed below:
 
 - [5 Steps of test-driven development](https://developer.ibm.com/articles/5-steps-of-test-driven-development/)
 - [Test-driven Development Frameworks You Must Know](https://www.nan-labs.com/blog/test-driven-development-examples-framework/)
-- [What strategies work best for adopting TDD](https://codeit.us/blog/test-driven-development#:~:text=While%20the%20traditional%20coding%20process%20starts%20with%20the,starting%20with%20writing%20a%20test%202%20checking%20it)
+- [What strategies work best for adopting TDD](https://codeit.us/blog/test-driven-development)
