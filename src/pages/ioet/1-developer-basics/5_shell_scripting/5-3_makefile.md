@@ -6,14 +6,14 @@ pubDate: "2022-09-14"
 
 Stop repeating terminal commands over and over again and automate them using makefile
 
-## Author
+## Contributor
 
-- Jefferson Oña @jeffqev
+- [Jefferson Oña](https://github.com/jeffqev)
 
-## Topics
+## Content
 
-- [Author](#author)
-- [Topics](#topics)
+- [Contributor](#contributor)
+- [Content](#content)
 - [What is Makefile?](#what-is-makefile)
 - [Why would we use Makefile?](#why-would-we-use-makefile)
 - [Hello World using Makefile](#hello-world-using-makefile)

@@ -10,18 +10,19 @@ const {
     title="Hello Word", description="This is a description", path="#", bgColor="#fadabd"
 } = Astro.props;
 ---
-<div class="Card">
-    <a href={path}>{title}</a>
+<a href={path}>
+    <div>{title}</div>
     <p>{description}</p>
-</div>
+</a>
 <style define:vars={{ bgColor }}>
-    div {
+    a {
         background-color: var(--bgColor);
         padding: 20px;
         border: none;
         border-radius: 10px;
+        text-decoration: none;
     }
-    a {
+    div {
         font-size: 20px;
         color: #4d4d4d;
         margin: 0;
@@ -34,14 +35,14 @@ const {
         color: #4d4d4d;
         margin: 0;
     }
-    .Card {
+    a {
         width: 100%;
         max-width: 220px;
      }
-    div:hover {
+    a:hover {
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     }
-    div a:hover {
+    a div:hover {
         color: #000;
     }
 </style>

@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/BlogPost.astro"
 title: "Test Driven Development"
-description: "tdd"
+description: "All about TDD"
 tags: ["tdd"]
 path: "/ioet/3-test-driven-development"
 color: "#fabfb7"

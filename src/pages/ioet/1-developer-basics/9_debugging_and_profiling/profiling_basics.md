@@ -4,14 +4,14 @@ title: "Profiling Basics"
 pubDate: "2022-09-14"
 ---
 
-## Author
+## Contributor
 
-- Daniela García @dsgarcia8
+- [Daniela García](https://github.com/dsgarcia8)
 
-## Topics
+## Content
 
-- [Author](#author)
-- [Topics](#topics)
+- [Contributor](#contributor)
+- [Content](#content)
 - [What is performance profiling?](#what-is-performance-profiling)
 - [Profiling tools](#profiling-tools)
   - [Cprofile (Python)](#cprofile-python)

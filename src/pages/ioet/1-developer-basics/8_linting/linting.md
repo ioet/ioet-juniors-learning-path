@@ -6,15 +6,15 @@ pubDate: "2022-09-14"
 
 In this guide you will learn about tools to help you improve your developer experience (DX).
 
-## Authors
+## Contributors
 
-- Daniela García @dsgarcia8
-- Jefferson Oña @jeffqev
+- [Daniela García ](https://github.com/dsgarcia8)
+- [Jefferson Oña](https://github.com/jeffqev)
 
-## Topics
+## Content
 
-- [Authors](#authors)
-- [Topics](#topics)
+- [Contributors](#contributors)
+- [Content](#content)
 - [What is Linting?](#what-is-linting)
 - [Why use Linting?](#why-use-linting)
   - [What all can linting help with?](#what-all-can-linting-help-with)

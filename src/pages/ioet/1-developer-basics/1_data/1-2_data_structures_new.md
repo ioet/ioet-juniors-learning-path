@@ -3,11 +3,10 @@ layout: "../../../../layouts/BlogPost.astro"
 title: "Data Structures"
 pubDate: "2022-09-14"
 ---
+## Contributors
 
-## Authors
-
-- Daniela García @dsgarcia8
-- Jefferson Oña @jeffqev
+- [Daniela García](https://github.com/dsgarcia8)
+- [Jefferson Oña](https://github.com/jeffqev)
 
 > Data structure is a storage that is used to store and organize data.
 Basically, data structures are divided into two categories: Linear data structure
@@ -19,10 +18,10 @@ In a non-linear data structure, data elements are attached in hierarchically man
 
 ![Data structure](https://media.geeksforgeeks.org/wp-content/uploads/20191010170332/Untitled-Diagram-183.png)
 
-### Topics
+## Content
 
-- [Authors](#authors)
-  - [Topics](#topics)
+- [Contributors](#contributors)
+- [Content](#content)
   - [Linear Data Structure](#linear-data-structure)
     - [Array](#array)
     - [Linked-list](#linked-list)

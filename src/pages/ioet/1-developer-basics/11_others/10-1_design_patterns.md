@@ -6,13 +6,13 @@ pubDate: "2022-09-14"
 
 ## Authors
 
-- Daniela García @dsgarcia8
-- Jean Carlos Alarcón @jcalarcon98
+- [Daniela García](https://github.com/dsgarcia8)
+- [Jean Carlos Alarcón](https://github.com/jcalarcon98)
 
-## Topics
+## Content
 
 - [Authors](#authors)
-- [Topics](#topics)
+- [Content](#content)
 - [What are Design Patterns?](#what-are-design-patterns)
 - [Difference between Design Pattern and an algorithm](#difference-between-design-pattern-and-an-algorithm)
 - [What does the pattern consist of?](#what-does-the-pattern-consist-of)
