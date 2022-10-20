@@ -7,10 +7,9 @@ path: "/ioet/4-dev-sec-ops"
 color: "#b0c2f2"
 pubDate: "2022-09-14"
 ---
-
-- CI/CD
+- [CI/CD Introduction](/ioet-juniors-learning-path/ioet/4-dev-sec-ops/1_ci_cd_notions/1-1_ci_cd_introduction)
 - Security notions
-- Artifact repositories
+- [Artifact repositories](/ioet-juniors-learning-path/ioet/4-dev-sec-ops/1_ci_cd_notions/1-3_artifact_repository)
 - Pipelines
 - Secret management (for local, dev, prod envs)
 - Tools
