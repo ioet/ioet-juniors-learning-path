@@ -124,7 +124,7 @@ Listed below are some customizations/settings that you can use:
 
 ### OhMyZsh
 
-![Oh-my_zsh](./assets/Oh-My-Zsh.png)
+![Oh-my_zsh](/assets/Oh-My-Zsh.png)
 
 Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled
 with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
