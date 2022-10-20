@@ -6,15 +6,15 @@ pubDate: "2022-09-14"
 
 In this document you will find the most useful tips to configure your JetBrains IDEs and VSCode, also some tips that will make you more productive.
 
-## Authors
+## Contributors
 
-- Jean Carlos Alarcón @jcalarcon98
-- Javier Sarango @jase156
+- [Jean Carlos Alarcón](https://github.com/jcalarcon98)
+- [Javier Sarango](https://github.com/jase156)
 
-## Topics
+## Content
 
-- [Authors](#authors)
-- [Topics](#topics)
+- [Contributors](#contributors)
+- [Content](#content)
 - [JetBrains IDEs configuration](#jetbrains-ides-configuration)
   - [Customize Colors and Fonts](#customize-colors-and-fonts)
   - [Configure keyboard shortcuts](#configure-keyboard-shortcuts)

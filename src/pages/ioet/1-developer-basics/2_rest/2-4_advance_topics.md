@@ -5,15 +5,15 @@ pubDate: "2022-09-14"
 ---
 In this document you will find some interesting guidelines to be more effective at building a REST API
 
-## Authors
+## Contributors
 
-- Jipson Murillo @Jobzi
-- Wladymir Brborich @Wason1797
+- [Jipson Murillo](https://github.com/Jobzi)
+- [Wladymir Brborich](https://github.com/Wason1797)
 
-### Topics
+## Content
 
-- [Authors](#authors)
-  - [Topics](#topics)
+- [Contributors](#contributors)
+- [Content](#content)
 - [API Error format](#api-error-format)
   - [Internal Server Errors](#internal-server-errors)
   - [When should we return 4xx or 5xx status codes to the client?](#when-should-we-return-4xx-or-5xx-status-codes-to-the-client)

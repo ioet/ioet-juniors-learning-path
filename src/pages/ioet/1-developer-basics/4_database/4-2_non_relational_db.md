@@ -8,9 +8,9 @@ Most databases can be categorized as either relational or non-relational. Non-re
 
 A non-relational database stores data in a non-tabular form, and tends to be more flexible than the traditional, SQL-based, relational database structures. It does not follow the relational model provided by traditional relational database management systems.
 
-## Topics
+## Content
 
-- [Topics](#topics)
+- [Content](#content)
 - [Non-relational database](#non-relational-database)
 - [The benefits of a non-relational database](#the-benefits-of-a-non-relational-database)
   - [Massive dataset organization](#massive-dataset-organization)
@@ -21,7 +21,7 @@ A non-relational database stores data in a non-tabular form, and tends to be mor
 - [Dynamic schemas](#dynamic-schemas)
 - [Replication](#replication)
 - [Non-relational databases and application development](#non-relational-databases-and-application-development)
-  - [Reference](#reference)
+- [Reference](#reference)
 
 ## Non-relational database
 
@@ -87,7 +87,7 @@ Applications must be able to query data efficiently and deliver results almost i
 
 Naturals for agile development, non-relational databases can accommodate the complexity of data inputs more efficiently than structured databases. In an age of increasing data complexity, non-relational databases provide the flexibility in database design that has become increasingly indispensable. Especially when paired with the cloud, non-relational databases lift the limits on your data collection, organization, and analysis, allowing you to get the most out of your data.
 
-### Reference
+## Reference
 
 - [MongoDB](https://www.mongodb.com/)
 - [Fundamentals of NoSQL databases](https://www.mongodb.com/es/nosql-explained#:~:text=When%20people%20use%20the%20term,format%20other%20than%20relational%20tables.)

@@ -4,14 +4,14 @@ title: "Platform as a Service"
 pubDate: "2022-09-14"
 ---
 
-## Authors
+## Contributor
 
-- Jipson Murillo @Jobzi
+- [Jipson Murillo](https://github.com/Jobzi)
 
-## Topics
+## Content
 
-- [Authors](#authors)
-- [Topics](#topics)
+- [Contributor](#contributor)
+- [Content](#content)
 - [What is PaaS?](#what-is-paas)
 - [Business Advantages](#business-advantages)
 - [Technical Advantages](#technical-advantages)

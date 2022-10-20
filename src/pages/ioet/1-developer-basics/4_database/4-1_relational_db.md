@@ -4,9 +4,9 @@ title: "What is a Relational Database"
 pubDate: "2022-09-14"
 ---
 
-## Topics
+## Content
 
-- [Topics](#topics)
+- [Content](#content)
 - [What is a Database?](#what-is-a-database)
 - [What is a Relational Database?](#what-is-a-relational-database)
 - [What is SQL?](#what-is-sql)

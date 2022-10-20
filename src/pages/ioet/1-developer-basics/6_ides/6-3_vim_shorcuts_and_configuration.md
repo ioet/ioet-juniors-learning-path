@@ -8,15 +8,15 @@ In this document you will find the most useful shortcuts for VIM, also some tips
 
 [Vim](https://www.vim.org/) is configurable text editor built to make creating any kind of text in efficient way.
 
-## Authors
+## Contributors
 
-- Jean Carlos Alarcón @jcalarcon98
-- Javier Sarango @jase156
+- [Jean Carlos Alarcón](https://github.com/jcalarcon98)
+- [Javier Sarango](https://github.com/jcalarcon98)
 
-## Topics
+## Content
 
-- [Authors](#authors)
-- [Topics](#topics)
+- [Contributors](#contributors)
+- [Content](#content)
 - [Shortcuts](#shortcuts)
   - [Global](#global)
   - [Cursor movement](#cursor-movement)

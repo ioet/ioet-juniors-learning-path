@@ -4,10 +4,10 @@ title: "Debugging"
 pubDate: "2022-09-14"
 ---
 
-## Authors
+## Contributors
 
-- Daniela García @dsgarcia8
-- Jefferson Oña @jeffqev
+- [Daniela García](https://github.com/dsgarcia8)
+- [Jefferson Oña](https://github.com/jeffqev)
 
 ### What is Debugging?
 

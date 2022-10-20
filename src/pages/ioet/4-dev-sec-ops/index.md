@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/BlogPost.astro"
 title: "DevSecOps"
-description: "dev sec ops"
+description: "All about DevSecOps"
 tags: ["dev-ops"]
 path: "/ioet/4-dev-sec-ops"
 color: "#b0c2f2"

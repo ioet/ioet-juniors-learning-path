@@ -4,13 +4,13 @@ title: "SQL most used operations"
 pubDate: "2022-09-14"
 ---
 
-## Contributors
+## Contributor
 
 - [Josué Cando](https://github.com/JosueOb)
 
 ## Content
 
-- [Contributors](#contributors)
+- [Contributor](#contributor)
 - [Content](#content)
 - [Introduction](#introduction)
 - [SQL Commands](#sql-commands)

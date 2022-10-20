@@ -6,14 +6,14 @@ pubDate: "2022-09-14"
 
 In this guide, you will learn about tools to help you improve your experience in your development process using docker.
 
-## Authors
+## Contributor
 
-- Jefferson Oña @jeffqev
+- [Jefferson Oña](https://github.com/jeffqev)
 
-## Topics
+## Content
 
-- [Authors](#authors)
-- [Topics](#topics)
+- [Contributor](#contributor)
+- [Content](#content)
 - [What is Docker?](#what-is-docker)
 - [What are Containers?](#what-are-containers)
   - [Differences between virtual machines and containers?](#differences-between-virtual-machines-and-containers)

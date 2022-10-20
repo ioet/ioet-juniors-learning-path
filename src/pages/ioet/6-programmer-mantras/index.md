@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/BlogPost.astro"
 title: "Programmer mantras"
-description: "programmer mantras"
+description: "All about programmer"
 tags: ["mantras"]
 path: "/ioet/6-programmer-mantras"
 color: "#b2e2f2"

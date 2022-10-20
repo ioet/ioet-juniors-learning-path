@@ -3,6 +3,9 @@ layout: "../../../../layouts/BlogPost.astro"
 title: "Alternatives to REST"
 pubDate: "2022-09-14"
 ---
+## Contributors
+
+- [Jean Carlos Alarcón](https://github.com/jcalarcon98)
 
 In this document you will find another alternatives to rest, specifically, we will focus on the following alternatives:
 
@@ -10,14 +13,10 @@ In this document you will find another alternatives to rest, specifically, we wi
 - WebSockets
 - gRPC
 
-## Authors
+## Content
 
-- Jean Carlos Alarcón @jcalarcon98
-
-## Topics
-
-- [Authors](#authors)
-- [Topics](#topics)
+- [Contributors](#contributors)
+- [Content](#content)
 - [GraphQL](#graphql)
   - [Advantages](#advantages)
   - [Disadvantages](#disadvantages)

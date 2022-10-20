@@ -4,7 +4,7 @@ title: "Shell Scripting"
 pubDate: "2022-09-14"
 ---
 
-## Author
+## Contributor
 
 - [Jipson Murillo](https://github.com/Jobzi)
 
@@ -15,7 +15,7 @@ If you find yourself repeating some commands frequently, you can, rather you sho
 
 ## Content
 
-- [Author](#author)
+- [Contributor](#contributor)
 - [Content](#content)
 - [¿What is CLI and GUI?](#what-is-cli-and-gui)
 - [¿Why would we use CLI over GUI?](#why-would-we-use-cli-over-gui)
