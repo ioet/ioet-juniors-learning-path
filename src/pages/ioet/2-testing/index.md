@@ -6,7 +6,6 @@ path: "/ioet/2-testing"
 color: "#b0f2c2"
 pubDate: "2022-09-14"
 ---
-
 - Types of tests
   - [Unit tests](/ioet-juniors-learning-path/ioet/2-testing/1_types_of_tests/1-1_unit_tests)
   - [Integration tests](/ioet-juniors-learning-path/ioet/2-testing/1_types_of_tests/1-2_integration_tests)
@@ -14,10 +13,10 @@ pubDate: "2022-09-14"
   - [Contract tests](/ioet-juniors-learning-path/ioet/2-testing/1_types_of_tests/1-4_contract_tests)
   - [Functional tests](/ioet-juniors-learning-path/ioet/2-testing/1_types_of_tests/1-5_functional_tests)
   - [Non functional tests](/ioet-juniors-learning-path/ioet/2-testing/1_types_of_tests/1-6_non_functional_tests)
-  - [Manual tests](/ioet-juniors-learning-path/ioet/2-testing/1_types_of_tests/)
+  - [Manual tests](/ioet-juniors-learning-path/ioet/2-testing/1_types_of_tests/1-7_manual_tests)
 - Test strategies
-  - Test strategy
+  - [Test strategy](/ioet-juniors-learning-path/ioet/2-testing/2_test_strategies/2-1_test_strategy)
   - Test pyramid
   - Testing trophy
 - TDD
-  - Introduction
+  - [Introduction](/ioet-juniors-learning-path/ioet/2-testing/3_tdd/3-1_introduction)
